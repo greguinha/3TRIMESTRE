@@ -18,7 +18,7 @@
             max indica a nota máxima que pode ser incluída;
             placeholder é um espaço reservado-->
 
-        <button id="calcular" onclick="calcular()">Calcular!</button>
+        <button id="calcular" onclick="calcular()">Calcular</button>
 
         <p>A sua média é: <span id="media"></span></p> <!--span serve para estilizar ou agrupar textos-->
         <p id="status"></p>
@@ -34,7 +34,7 @@
 
             n1 = document.getElementById('nota_1').value; //o valor da nota 1 vai vir do valor digitado em nota1
             n2 = document.getElementById('nota_2').value;
-            //n3 = document.getElementById('nota_3').value;
+            n3 = document.getElementById('nota_3').value;
 
             media = (parseFloat(n1) + parseFloat(n2)) / 2 //concatena o valor digitado em nota1 com nota2, que é um número real 
             //media = (parseFloat(n1) + parseFloat(n2) + parseFloat(n3)) / 3
